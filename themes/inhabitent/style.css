@@ -568,6 +568,15 @@ a {
 .widget_search .search-submit {
   display: none; }
 
+#site-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template: "whatever widget"; }
+  #site-content .content-area {
+    grid-area: whatever; }
+  #site-content .widget-area {
+    grid-area: widget; }
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
@@ -605,6 +614,15 @@ a {
 
 .bypostauthor {
   display: block; }
+
+#site-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template: "whatever widget"; }
+  #site-content .content-area {
+    grid-area: whatever; }
+  #site-content .widget-area {
+    grid-area: widget; }
 
 /*--------------------------------------------------------------
 # Media

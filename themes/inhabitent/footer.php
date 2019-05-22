@@ -13,6 +13,7 @@
 	info@inhabitent.com
 	<br>
 	778-456-7891</p>
+	
 <p>BUSINESS HOURS
 	<br>
 	Monday-Friday: 9am to 5pm

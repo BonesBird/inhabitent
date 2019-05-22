@@ -3,15 +3,28 @@
 --------------------------------------------------------------*/
 
 .widget {
-	margin: 0 0 $base__space-unit;
+  margin: 0 0 $base__space-unit;
 
-	/* Make sure select elements fit in widgets. */
-	select {
-		max-width: 100%;
-	}
+  /* Make sure select elements fit in widgets. */
+  select {
+    max-width: 100%;
+  }
 }
 
 /* Search widget. */
 .widget_search .search-submit {
-	display: none;
+  display: none;
+}
+
+#site-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template: "whatever widget";
+
+  .content-area {
+    grid-area: whatever; 
+  }
+  .widget-area {
+    grid-area: widget;
+  }
 }
