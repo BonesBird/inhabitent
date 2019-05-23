@@ -48,15 +48,3 @@
 	display: block;
 }
 
-.content {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template: "whatever widget";
-
-  .content-area {
-    grid-area: whatever; 
-  }
-  .widget-area {
-    grid-area: widget;
-  }
-}
