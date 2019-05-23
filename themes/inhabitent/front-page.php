@@ -23,19 +23,22 @@ get_header(); ?>
 						<?php
 						foreach ($terms as $term) : ?>
 
-							<div class="product-term">
-								<img src="<?php echo get_template_directory_uri() .
-												'/project-04-2/images/product-type-icons/' .
-												$term->slug . '.svg'
-											?>" />
+							<li class="product-term">
+								
+									<img src="<?php echo get_template_directory_uri() .
+													'/project-04-2/images/product-type-icons/' .
+													$term->slug . '.svg'
+												?>" />
 
-								<!-- links of products -->
-								<p><?php echo $term -> description; ?></p>
-								<p>
-									<a href="<?php echo get_term_link($term); ?>">
-										<?php echo $term->name; ?> Stuff
-									</a>
-								</p>
+									<!-- links of products -->
+									<p><?php echo $term->description; ?></p>
+									<p>
+										<a href="<?php echo get_term_link($term); ?>">
+											<?php echo $term->name; ?> Stuff
+										</a>
+									</p>
+								
+
 							<?php
 						endforeach;
 						?>
@@ -49,7 +52,7 @@ get_header(); ?>
 
 
 
-<section class='d-journal'>
+<section class='journal'>
 	<h2>Inhabitnet Journal</h2>
 
 	<!-- loop with get post -->

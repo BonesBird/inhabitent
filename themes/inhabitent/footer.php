@@ -13,7 +13,7 @@
 	info@inhabitent.com
 	<br>
 	778-456-7891</p>
-	
+
 <p>BUSINESS HOURS
 	<br>
 	Monday-Friday: 9am to 5pm
@@ -21,12 +21,12 @@
 	Saturday: 10am to 2pm
 	<br>
 	Sunday: Closed</p>
-	
+
 <center>COPYRIGHT © 2019 INHABITENT</center>
 
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="site-info">
-		
+
 	</div><!-- .site-info -->
 </footer><!-- #colophon -->
 </div><!-- #page -->

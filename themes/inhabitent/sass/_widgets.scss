@@ -16,15 +16,3 @@
   display: none;
 }
 
-#site-content {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template: "main widget";
-
-  .content-area {
-    grid-area: main; 
-  }
-  .widget-area {
-    grid-area: widget;
-  }
-}
