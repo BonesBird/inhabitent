@@ -23,8 +23,7 @@ get_header(); ?>
 			endif;
 			?>
 
-		<?php endwhile; 
-	?>
+		<?php endwhile; ?>
 
 	</main><!-- #main -->
 </div><!-- #primary -->

@@ -1,0 +1,20 @@
+.site-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  background-color: orange;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  .main-navigation {
+    clear: both;
+    display: block;
+
+    width: 100%;
+  }
+  .top-logo {
+    background: url(../../project-04-2/images/logos/inhabitent-logo-tent.svg);
+  }
+}

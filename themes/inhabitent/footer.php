@@ -6,47 +6,38 @@
  */
 
 ?>
+</div> <!-- #content -->
 
-</div><!-- #content -->
-<footer id="colophon" class="site-footer" role="contentinfo" style="background-image: url(wp-content/themes/inhabitent/project-04-2/images/dark-wood.png)">
-	<div class="site-info">
-	
-		<div class="footer-block container">
-			<div class="footer-item-1">
-				<div class="contact-info">
-					<p>
-						CONTACT INFO
-						<br>
-						info@inhabitent.com
-						<br>
-						778-456-7891
-					</p>
-				</div>
-			</div>
-			<div class="footer-item-2">
-				<div class="hours-info">
-					<p>
-						BUSINESS HOURS
-						<br>
-						Monday-Friday: 9am to 5pm
-						<br>
-						Saturday: 10am to 2pm
-						<br>
-						Sunday: Closed
-					</p>
-				</div>
-			</div>
+<footer id="colophon" class="site-footer footer-container" role="contentinfo">
 
-			<center>COPYRIGHT © 2019 INHABITENT</center>
+	<div class="footer-block">
+
+		<div class="contact-info">
+			<p>contact info</p>
+			<p>info@inhabitent.com</p>
+			<p> 778-456-7891</p>
 		</div>
+
+		<div class="hours-info">
+			<p>business hours</p>
+			<p>Monday-Friday: 9am to 5pm</p>
+			<p>Saturday: 10am to 2pm</p>
+			<p>Sunday: Closed</p>
+		</div>
+
+		<div class="copyright-container">
+			<p>COPYRIGHT © 2019 INHABITENT</p>
+		</div>
+
+		<div class="footer-image">
+			<img src="<?php echo get_template_directory_uri(); ?>/project-04-2/images/logos/inhabitent-logo-text.svg" alt="no picture">
+		</div>
+		<!-- add footer logo -->
 	</div>
-
-	</div><!-- .site-info -->
 </footer><!-- #colophon -->
-</div><!-- #page -->
 
-<?php wp_footer(); ?>
-
+</div><!-- end of page -->
 </body>
+<?php wp_footer(); ?>
 
 </html>
