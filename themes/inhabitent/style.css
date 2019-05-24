@@ -670,11 +670,15 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.blog {
+.blog,
+.page-find-us,
+.single-post {
   border-style: solid;
   border-color: grey;
   border-width: 0.5px; }
-  .blog .site-content {
+  .blog .site-content,
+  .page-find-us .site-content,
+  .single-post .site-content {
     border-style: solid;
     border-color: grey;
     border-width: 0.5px;
@@ -682,13 +686,17 @@ object {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas: "whatever anything"; }
-    .blog .site-content .content-area {
+    .blog .site-content .content-area,
+    .page-find-us .site-content .content-area,
+    .single-post .site-content .content-area {
       border-style: solid;
       border-color: grey;
       border-width: 0.25px;
       grid-area: whatever;
       max-width: 50; }
-    .blog .site-content .widget-area {
+    .blog .site-content .widget-area,
+    .page-find-us .site-content .widget-area,
+    .single-post .site-content .widget-area {
       border-style: solid;
       border-color: grey;
       border-width: 0.25px;
