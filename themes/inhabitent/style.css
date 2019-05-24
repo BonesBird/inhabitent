@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
 Theme Name: Inhabitent
 Theme URI: http://underscores.me/
@@ -701,3 +702,25 @@ object {
       border-color: grey;
       border-width: 0.25px;
       grid-area: anything; }
+
+​footer {
+  width: 100%;
+  height: 400px;
+  background-image: url(../wp-content/themes/inhabitent/project-04-2/images/dark-wood.png);
+  background-size: 100% 100%; }
+
+​
+.footer {
+  display: block; }
+
+.footer-item-1 {
+  display: block; }
+
+.footer-item-2 {
+  display: block; }
+
+.contact-info {
+  display: block; }
+
+.hours-info {
+  display: block; }
