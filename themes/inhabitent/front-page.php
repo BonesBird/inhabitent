@@ -9,9 +9,6 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
-
-
-
 		<section>
 			<h2>Shop Stuff<h2>
 					<?php
@@ -22,23 +19,18 @@ get_header(); ?>
 					<div class='product-terms'>
 						<?php
 						foreach ($terms as $term) : ?>
-
 							<li class="product-term">
-								
-									<img src="<?php echo get_template_directory_uri() .
-													'/project-04-2/images/product-type-icons/' .
-													$term->slug . '.svg'
-												?>" />
-
-									<!-- links of products -->
-									<p><?php echo $term->description; ?></p>
-									<p>
-										<a href="<?php echo get_term_link($term); ?>">
-											<?php echo $term->name; ?> Stuff
-										</a>
-									</p>
-								
-
+								<img src="<?php echo get_template_directory_uri() .
+												'/project-04-2/images/product-type-icons/' .
+												$term->slug . '.svg'
+											?>" />
+								<!-- links of products -->
+								<p><?php echo $term->description; ?></p>
+								<p>
+									<a href="<?php echo get_term_link($term); ?>">
+										<?php echo $term->name; ?> Stuff
+									</a>
+								</p>
 							<?php
 						endforeach;
 						?>
