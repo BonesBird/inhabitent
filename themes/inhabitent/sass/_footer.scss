@@ -1,14 +1,48 @@
 footer {
   background-image: url('../../project-04-2/images/dark-wood.png');
   position: relative;
+  display: flex;
 
   .footer-block {
     @include center-block;
-  }
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    border: 100%;
+    .contact-info {
+      color: white;
+      margin: 3rem 0;
+      padding-right: 1.5rem;
+      width: 25%;
+      h3 {
+        color: orange;
+      }
+    }
+    .hours-info {
+      color: white;
+      margin: 3rem 0;
+      padding-right: 1.5rem;
+      width: 25%;
 
+      h3 {
+        color: orange;
+      }
+      p {
+        .bold-hours {
+          font-weight: bold;
+        }
+      }
+    }
+  }
   .footer-image {
     right: 60px;
     position: absolute;
     top: 42px;
   }
+}
+.copyright-container {
+  color: white;
+  align-self: flex-end;
+  width: 1120px;
 }

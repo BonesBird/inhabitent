@@ -12,18 +12,20 @@
 
 	<div class="footer-block">
 
+
 		<div class="contact-info">
-			<p>contact info</p>
+			<h3>Contact Info</h3>
 			<p>info@inhabitent.com</p>
 			<p> 778-456-7891</p>
 		</div>
 
 		<div class="hours-info">
-			<p>business hours</p>
-			<p>Monday-Friday: 9am to 5pm</p>
-			<p>Saturday: 10am to 2pm</p>
-			<p>Sunday: Closed</p>
+			<h3>Business Hours</h3>
+			<p><span class="bold-hours">Monday-Friday:</span>9am to 5pm</p>
+			<p><span class="bold-hours">Saturday:</span> 10am to 2pm</p>
+			<p><span class="bold-hours">Sunday:</span> Closed</p>
 		</div>
+
 
 		<div class="copyright-container">
 			<p>COPYRIGHT © 2019 INHABITENT</p>
