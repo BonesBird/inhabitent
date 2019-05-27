@@ -716,25 +716,25 @@ object {
 /* Front page */
 .blog {
   border-style: solid;
-  border-color: grey;
+  border-color: #c4c4c4;
   border-width: 0.5px; }
   .blog .site-content {
     border-style: solid;
-    border-color: grey;
+    border-color: #c4c4c4;
     border-width: 0.5px;
     width: 100%;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-areas: "whatever anything"; }
+    grid-template-areas: 'whatever anything'; }
     .blog .site-content .content-area {
       border-style: solid;
-      border-color: grey;
+      border-color: #c5c5c5;
       border-width: 0.25px;
       grid-area: whatever;
       max-width: 50; }
     .blog .site-content .widget-area {
       border-style: solid;
-      border-color: grey;
+      border-color: silver;
       border-width: 0.25px;
       grid-area: anything; }
 
@@ -796,17 +796,26 @@ footer {
   width: 100%;
   overflow: hidden;
   text-align: center;
-  background-color: orange;
+  background-color: white;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-top: 5px;
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+  contain: content;
+  padding: 25;
+  border-style: solid;
+  border-color: #c2c2c2;
+  border-width: 0.25px; }
   .site-header .main-navigation {
     clear: both;
-    display: block;
-    width: 100%; }
+    display: block; }
   .site-header .top-logo {
     background: url(../../project-04-2/images/logos/inhabitent-logo-tent.svg);
-    padding: 5;
-    width: 5px; }
+    width: 280%;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: 50px; }

@@ -1,22 +1,29 @@
 .site-header {
   display: flex;
+
   align-items: center;
   width: 100%;
   overflow: hidden;
   text-align: center;
-  background-color: orange;
+  background-color: white;
   justify-content: space-between;
   padding-top: 5px;
   padding-bottom: 5px;
+  contain: content;
+  padding: 25;
+  border-style: solid;
+  border-color: rgb(194, 194, 194);
+  border-width: 0.25px;
   .main-navigation {
     clear: both;
     display: block;
-
-    width: 100%;
   }
   .top-logo {
     background: url(../../project-04-2/images/logos/inhabitent-logo-tent.svg);
-    padding: 5;
-    width: 5px;
+    width: 280%;
+    justify-content: left;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: 50px;
   }
 }
