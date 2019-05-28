@@ -802,16 +802,26 @@ footer {
           justify-content: space-between;
   padding-top: 5px;
   padding-bottom: 5px;
-  padding: 25;
   border-style: solid;
   border-color: #9e9d9d;
   border-width: 0.25px; }
+  .site-header nav ul {
+    list-style: none;
+    margin: 0 2px;
+    padding: 0; }
+  .site-header nav li {
+    display: inline-block;
+    padding: 5px 5px; }
+  .site-header nav a {
+    font-weight: normal;
+    padding: 10px 5px;
+    font-size: 0.8em; }
   .site-header .main-navigation {
     clear: both;
     display: block; }
   .site-header .top-logo {
     background: url(../../project-04-2/images/logos/inhabitent-logo-tent.svg);
-    width: 147%;
+    width: 130%;
     -webkit-box-pack: left;
         -ms-flex-pack: left;
             justify-content: left;
