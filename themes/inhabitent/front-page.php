@@ -19,7 +19,7 @@ get_header(); ?>
 					<div class='product-terms'>
 						<?php
 						foreach ($terms as $term) : ?>
-							<li class="product-term">
+							<li class="product-term" style="list-style-type: none;">
 								<img src="<?php echo get_template_directory_uri() .
 												'/project-04-2/images/product-type-icons/' .
 												$term->slug . '.svg'
@@ -28,7 +28,7 @@ get_header(); ?>
 								<p><?php echo $term->description; ?></p>
 								<p>
 									<a href="<?php echo get_term_link($term); ?>">
-										<?php echo $term->name; ?> Stuff
+										<?php echo $term->name; ?>
 									</a>
 								</p>
 							<?php
