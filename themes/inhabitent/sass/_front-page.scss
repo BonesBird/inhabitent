@@ -1,0 +1,15 @@
+.product-terms {
+  ul {
+    display: flex;
+    border: 1px solid #e1e1e1;
+    border-top-width: 5px;
+    padding: 0.75rem;
+    line-height: 1.75;
+    justify-content: space-between;
+    text-align: center;
+  }
+  img {
+    height: auto;
+    max-width: 70px;
+  }
+}

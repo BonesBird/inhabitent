@@ -17,23 +17,26 @@ get_header(); ?>
 					); ?>
 					<!-- begining of product terms -->
 					<div class='product-terms'>
-						<?php
-						foreach ($terms as $term) : ?>
-							<li class="product-term" style="list-style-type: none;">
-								<img src="<?php echo get_template_directory_uri() .
-												'/project-04-2/images/product-type-icons/' .
-												$term->slug . '.svg'
-											?>" />
-								<!-- links of products -->
-								<p><?php echo $term->description; ?></p>
-								<p>
-									<a href="<?php echo get_term_link($term); ?>">
-										<?php echo $term->name; ?>
-									</a>
-								</p>
+						<ul>
+							<?php
+							foreach ($terms as $term) : ?>
+								<li class="product-term" style="list-style-type: none;">
+									<img src="<?php echo get_template_directory_uri() .
+													'/project-04-2/images/product-type-icons/' .
+													$term->slug . '.svg'
+												?>" />
+									<!-- links of products -->
+									<p><?php echo $term->description; ?></p>
+									<p>
+										<a href="<?php echo get_term_link($term); ?>">
+											<?php echo $term->name; ?>
+										</a>
+									</p>
+								</li>
 							<?php
 						endforeach;
 						?>
+						</ul>
 					</div>
 </div>
 <!-- end of product terms -->
