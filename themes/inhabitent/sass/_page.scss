@@ -11,6 +11,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas: 'whatever anything';
+
     .content-area {
       border-style: solid;
       border-color: rgb(197, 197, 197);

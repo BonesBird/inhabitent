@@ -1,3 +1,11 @@
+.home-hero {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, #00000066),
+    #969696 url('../../project-04-2/images/home-hero.jpg'),
+    ('../../project-04-2/images/logos/inhabitent-logo-full.svg') no-repeat top;
+  background-size: cover, cover;
+  height: 100vh;
+  justify-content: center;
+}
 .product-terms {
   ul {
     display: flex;

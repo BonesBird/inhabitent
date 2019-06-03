@@ -3,14 +3,18 @@
   text-align: center;
   align-items: center;
   width: 100%;
-  overflow: hidden;
-  background-color: white;
   justify-content: space-between;
   padding-top: 5px;
   padding-bottom: 5px;
-  border-style: solid;
-  border-color: rgb(158, 157, 157);
-  border-width: 0.25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1288px;
+  fieldset {
+    border: none;
+  }
+  .search-form {
+    display: flex;
+  }
 
   nav ul {
     list-style: none;

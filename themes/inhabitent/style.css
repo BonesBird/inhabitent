@@ -795,16 +795,20 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  overflow: hidden;
-  background-color: white;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-top: 5px;
   padding-bottom: 5px;
-  border-style: solid;
-  border-color: #9e9d9d;
-  border-width: 0.25px; }
+  margin-left: auto;
+  margin-right: auto;
+  width: 1288px; }
+  .site-header fieldset {
+    border: none; }
+  .site-header .search-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
   .site-header nav ul {
     list-style: none;
     margin: 0 2px;
@@ -852,6 +856,15 @@ footer {
       border-color: silver;
       border-width: 0.25px;
       grid-area: anything; }
+
+.home-hero {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.4)), to(#00000066)), #969696 url("../../project-04-2/images/home-hero.jpg"), "../../project-04-2/images/logos/inhabitent-logo-full.svg" no-repeat top;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, #00000066), #969696 url("../../project-04-2/images/home-hero.jpg"), "../../project-04-2/images/logos/inhabitent-logo-full.svg" no-repeat top;
+  background-size: cover, cover;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .product-terms ul {
   display: -webkit-box;
