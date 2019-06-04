@@ -227,43 +227,43 @@ th {
 --------------------------------------------------------------*/
 @font-face {
   font-family: 'Merriweather Web';
-  src: url("fonts/merriweather-light-webfont.eot");
-  src: url("fonts/merriweather-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather-light-webfont.woff2") format("woff2"), url("fonts/merriweather-light-webfont.woff") format("woff"), url("fonts/merriweather-light-webfont.ttf") format("truetype"), url("fonts/merriweather-light-webfont.svg#merriweatherlight") format("svg");
+  src: url("../../fonts/merriweather-light-webfont.eot");
+  src: url("../../fonts/merriweather-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/merriweather-light-webfont.woff2") format("woff2"), url("../../fonts/merriweather-light-webfont.woff") format("woff"), url("../../fonts/merriweather-light-webfont.ttf") format("truetype"), url("../../fonts/merriweather-light-webfont.svg#merriweatherlight") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Merriweather Web';
-  src: url("fonts/merriweather-lightitalic-webfont.eot");
-  src: url("fonts/merriweather-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather-lightitalic-webfont.woff2") format("woff2"), url("fonts/merriweather-lightitalic-webfont.woff") format("woff"), url("fonts/merriweather-lightitalic-webfont.ttf") format("truetype"), url("fonts/merriweather-lightitalic-webfont.svg#merriweatherlight_italic") format("svg");
+  src: url("../../fonts/merriweather-lightitalic-webfont.eot");
+  src: url("../../fonts/merriweather-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/merriweather-lightitalic-webfont.woff2") format("woff2"), url("../../fonts/merriweather-lightitalic-webfont.woff") format("woff"), url("../../fonts/merriweather-lightitalic-webfont.ttf") format("truetype"), url("../../fonts/merriweather-lightitalic-webfont.svg#merriweatherlight_italic") format("svg");
   font-weight: normal;
   font-style: italic; }
 
 @font-face {
   font-family: 'Merriweather Web';
-  src: url("fonts/merriweather-bold-webfont.eot");
-  src: url("fonts/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather-bold-webfont.woff2") format("woff2"), url("fonts/merriweather-bold-webfont.woff") format("woff"), url("fonts/merriweather-bold-webfont.ttf") format("truetype"), url("fonts/merriweather-bold-webfont.svg#merriweatherbold") format("svg");
+  src: url("../../fonts/merriweather-bold-webfont.eot");
+  src: url("../../fonts/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/merriweather-bold-webfont.woff2") format("woff2"), url("../../fonts/merriweather-bold-webfont.woff") format("woff"), url("../../fonts/merriweather-bold-webfont.ttf") format("truetype"), url("../../fonts/merriweather-bold-webfont.svg#merriweatherbold") format("svg");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'Merriweather Web';
-  src: url("fonts/merriweather-bolditalic-webfont.eot");
-  src: url("fonts/merriweather-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather-bolditalic-webfont.woff2") format("woff2"), url("fonts/merriweather-bolditalic-webfont.woff") format("woff"), url("fonts/merriweather-bolditalic-webfont.ttf") format("truetype"), url("fonts/merriweather-bolditalic-webfont.svg#merriweatherbold_italic") format("svg");
+  src: url("../../fonts/merriweather-bolditalic-webfont.eot");
+  src: url("../../fonts/merriweather-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/merriweather-bolditalic-webfont.woff2") format("woff2"), url("../../fonts/merriweather-bolditalic-webfont.woff") format("woff"), url("../../fonts/merriweather-bolditalic-webfont.ttf") format("truetype"), url("../../fonts/merriweather-bolditalic-webfont.svg#merriweatherbold_italic") format("svg");
   font-weight: bold;
   font-style: italic; }
 
 @font-face {
   font-family: 'Novecento Sans Web';
-  src: url("fonts/novecentosanswide-normal-webfont.eot");
-  src: url("fonts/novecentosanswide-normal-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/novecentosanswide-normal-webfont.woff2") format("woff2"), url("fonts/novecentosanswide-normal-webfont.woff") format("woff"), url("fonts/novecentosanswide-normal-webfont.ttf") format("truetype"), url("fonts/novecentosanswide-normal-webfont.svg#novecento_sans_widenormal") format("svg");
+  src: url("../../fonts/novecentosanswide-normal-webfont.eot");
+  src: url("../../fonts/novecentosanswide-normal-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/novecentosanswide-normal-webfont.woff2") format("woff2"), url("../../fonts/novecentosanswide-normal-webfont.woff") format("woff"), url("../../fonts/novecentosanswide-normal-webfont.ttf") format("truetype"), url("../../fonts/novecentosanswide-normal-webfont.svg#novecento_sans_widenormal") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Novecento Sans Web';
-  src: url("fonts/novecentosanswide-demibold-webfont.eot");
-  src: url("fonts/novecentosanswide-demibold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/novecentosanswide-demibold-webfont.woff2") format("woff2"), url("fonts/novecentosanswide-demibold-webfont.woff") format("woff"), url("fonts/novecentosanswide-demibold-webfont.ttf") format("truetype"), url("fonts/novecentosanswide-demibold-webfont.svg#novecento_sans_widedemibold") format("svg");
+  src: url("../../fonts/novecentosanswide-demibold-webfont.eot");
+  src: url("../../fonts/novecentosanswide-demibold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/novecentosanswide-demibold-webfont.woff2") format("woff2"), url("../../fonts/novecentosanswide-demibold-webfont.woff") format("woff"), url("../../fonts/novecentosanswide-demibold-webfont.ttf") format("truetype"), url("../../fonts/novecentosanswide-demibold-webfont.svg#novecento_sans_widedemibold") format("svg");
   font-weight: bold;
   font-style: normal; }
 
@@ -276,7 +276,7 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: sans-serif;
+  font-family: Merriweather;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
@@ -802,7 +802,8 @@ footer {
   padding-bottom: 5px;
   margin-left: auto;
   margin-right: auto;
-  width: 1288px; }
+  width: 1240px;
+  border-bottom: 1px solid #e1e1e1; }
   .site-header fieldset {
     border: none; }
   .site-header .search-form {
@@ -834,28 +835,33 @@ footer {
     background-size: 50px; }
 
 .page-find-us {
-  border-style: solid;
-  border-color: #c4c4c4;
-  border-width: 0.5px; }
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px; }
   .page-find-us .site-content {
-    border-style: solid;
-    border-color: #c4c4c4;
-    border-width: 0.5px;
     width: 100%;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas: 'whatever anything'; }
     .page-find-us .site-content .content-area {
-      border-style: solid;
-      border-color: #c5c5c5;
-      border-width: 0.25px;
       grid-area: whatever;
       max-width: 50; }
     .page-find-us .site-content .widget-area {
-      border-style: solid;
-      border-color: silver;
+      border-left-style: solid;
       border-width: 0.25px;
+      border-color: silver;
+      padding-left: 5%;
       grid-area: anything; }
+
+h2 {
+  font-size: 38.4px;
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 3.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: Novecento Sans Web, sans-serif; }
 
 .home-hero {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), #969696 url("../../project-04-2/images/home-hero.jpg");
@@ -914,3 +920,23 @@ footer {
 .product-terms img {
   height: auto;
   max-width: 70px; }
+
+.grid-container {
+  height: 500px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
+  margin-left: 189px;
+  margin-right: 189px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 3px; }
+  .grid-container img {
+    height: 235px;
+    width: auto; }
+
+.grid-item {
+  border: 1px solid #e1e1e1;
+  padding: 20px;
+  text-align: center; }

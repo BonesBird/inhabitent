@@ -1,3 +1,14 @@
+h2 {
+  font-size: 38.4px;
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 3.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: Novecento Sans Web, sans-serif;
+}
+
 .home-hero {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)),
     #969696 url('../../project-04-2/images/home-hero.jpg');
@@ -45,4 +56,24 @@
     height: auto;
     max-width: 70px;
   }
+}
+
+.grid-container {
+  height: 500px;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-left: 189px;
+  margin-right: 189px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 3px;
+  img {
+    height: 235px;
+    width: auto;
+  }
+}
+.grid-item {
+  border: 1px solid #e1e1e1;
+  padding: 20px;
+  text-align: center;
 }

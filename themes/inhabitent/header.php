@@ -24,6 +24,7 @@
 		<a class="skip-link screen-reader-text" href="#content"><?php echo esc_html('Skip to content'); ?></a>
 
 		<header id="masthead" class="site-header" role="banner">
+
 			<div class="top-logo"></div>
 
 			<div class="site-branding">
