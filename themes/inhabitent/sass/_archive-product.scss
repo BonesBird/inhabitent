@@ -16,8 +16,42 @@
     margin-bottom: 1.5rem;
     border: 0px;
     border-top-width: 0px;
+    a {
+      text-decoration: none;
+      color: #008033;
+      a:visited {
+        color: green;
+      }
+    }
   }
 }
-a {
-  text-decoration: none;
+.shop-containment {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 160px;
+  margin-right: 160px;
+  .product {
+    border: 1px solid #e1e1e1;
+    overflow: hidden;
+    img {
+      max-height: 250px;
+      max-width: none;
+      width: auto;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+      display: inline;
+      font-size: 16px;
+      font-size: 1rem;
+      font-weight: 400;
+      font-family: Merriweather Web, serif;
+      letter-spacing: 0;
+      line-height: 1.75;
+      padding-right: 0.25rem;
+      text-transform: none;
+    }
+  }
 }

@@ -715,21 +715,28 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 /* About Page */
-.page-about .entry-header .entry-title {
+.page-about .entry-content .p-tager {
+  margin-left: auto;
+  text-align: center;
+  max-width: 718px;
+  margin-right: auto;
+  margin-bottom: 1.178rem; }
+
+.page-about .entry-content .entry-header .entry-title {
   display: none; }
 
-.page-about .hero-image-header {
+.page-about .entry-content .hero-image-header {
   width: 100%;
   height: 100vh;
   position: relative; }
-  .page-about .hero-image-header .entry-title {
+  .page-about .entry-content .hero-image-header .entry-title {
     display: block;
     position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); }
-  .page-about .hero-image-header img {
+  .page-about .entry-content .hero-image-header img {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
@@ -855,24 +862,23 @@ footer {
     background-repeat: no-repeat;
     background-size: 50px; }
 
-.page-find-us {
+.page-find-us .site-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: 'whatever anything';
   margin-left: auto;
   margin-right: auto;
   width: 1120px; }
-  .page-find-us .site-content {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-areas: 'whatever anything'; }
-    .page-find-us .site-content .content-area {
-      grid-area: whatever;
-      max-width: 50; }
-    .page-find-us .site-content .widget-area {
-      border-left-style: solid;
-      border-width: 0.25px;
-      border-color: silver;
-      padding-left: 5%;
-      grid-area: anything; }
+  .page-find-us .site-content .content-area {
+    grid-area: whatever;
+    max-width: 50; }
+  .page-find-us .site-content .widget-area {
+    border-left-style: solid;
+    border-width: 0.25px;
+    border-color: silver;
+    padding-left: 5%;
+    grid-area: anything; }
 
 h2 {
   font-size: 38.4px;
@@ -1127,6 +1133,35 @@ h2 {
     margin-bottom: 1.5rem;
     border: 0px;
     border-top-width: 0px; }
+    .product-terms .product-term a {
+      text-decoration: none;
+      color: #008033; }
+      .product-terms .product-term a a:visited {
+        color: green; }
 
-a {
-  text-decoration: none; }
+.shop-containment {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 160px;
+  margin-right: 160px; }
+  .shop-containment .product {
+    border: 1px solid #e1e1e1;
+    overflow: hidden; }
+    .shop-containment .product img {
+      max-height: 250px;
+      max-width: none;
+      width: auto; }
+    .shop-containment .product a {
+      text-decoration: none;
+      color: black;
+      display: inline;
+      font-size: 16px;
+      font-size: 1rem;
+      font-weight: 400;
+      font-family: Merriweather Web, serif;
+      letter-spacing: 0;
+      line-height: 1.75;
+      padding-right: 0.25rem;
+      text-transform: none; }
