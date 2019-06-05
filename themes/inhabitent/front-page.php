@@ -88,6 +88,54 @@ get_header(); ?>
 
 		</section>
 
+		<!-- not working -->
+		<section class="adventures container">
+			<h2>Latest Adventures</h2>
+			<ul>
+				<li>
+					<div class="cannoue-ride">
+						<img src="<?php echo get_template_directory_uri() . ("/project-04-2/images/adventure-photos/canoe-girl.jpg") ?>">
+						<div class="story-info">
+							<h3>story-info<p>getting back to nature in a cannue</p>
+							</h3>
+							<a class="white-btn">read more</a>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="night-with-f">
+						<img src="<?php echo get_template_directory_uri() . ("/project-04-2/images/adventure-photos/beach-bonfire.jpg") ?>">
+						<div class="story-info">
+							<h3>story-info<p>a night at the beach with freinds</p>
+							</h3>
+							<a class="white-btn">read more</a>
+						</div>
+				</li>
+
+				<li>
+					<div class="veiw-taking">
+						<img src="<?php echo get_template_directory_uri() . ("/project-04-2/images/adventure-photos/mountain-hikers.jpg") ?>">
+						<div class="info-story"></div>
+						<h3>entry-title<p>taking in the veiw of a mountain</p>
+						</h3>
+						<a class="white-btn">read more</a>
+					</div>
+				</li>
+
+				<li>
+					<div class="night-sky">
+						<img src="<?php echo get_template_directory_uri() . ("/project-04-2/images/adventure-photos/night-sky.jpg") ?>">
+						<div class="info-story"></div>
+						<h3>entry-title<p>veiw the night sky</p>
+						</h3>
+						<a class="white-btn">read more</a>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<!-- end of not working -->
+
 </div>
 
 
