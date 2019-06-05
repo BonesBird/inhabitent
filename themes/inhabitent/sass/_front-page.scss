@@ -59,7 +59,6 @@ h2 {
 }
 
 .journal-3 {
-  height: 500px;
   justify-content: space-between;
   overflow: hidden;
   margin-left: 189px;
@@ -67,15 +66,21 @@ h2 {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 3px;
+  grid-gap: 50px 50px;
+
   img {
     height: 235px;
     width: auto;
   }
-}
-.grid-item {
-  border: 1px solid #e1e1e1;
-  padding: 20px;
-  text-align: center;
+  .grid-item {
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #ececec;
+    padding: 1px;
+    padding-bottom: 0;
+  }
 }
 
 .grid-container {

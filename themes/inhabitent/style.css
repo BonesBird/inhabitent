@@ -810,8 +810,8 @@ footer {
 
 .copyright-container {
   color: white;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  margin-top: 25%;
+  margin-left: 10%;
   width: 1120px; }
 
 .site-header {
@@ -948,7 +948,6 @@ h2 {
   max-width: 70px; }
 
 .journal-3 {
-  height: 500px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -957,15 +956,21 @@ h2 {
   margin-right: 189px;
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 3px; }
+  padding: 3px;
+  grid-gap: 50px 50px; }
   .journal-3 img {
     height: 235px;
     width: auto; }
-
-.grid-item {
-  border: 1px solid #e1e1e1;
-  padding: 20px;
-  text-align: center; }
+  .journal-3 .grid-item {
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    text-align: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #ececec;
+    padding: 1px;
+    padding-bottom: 0; }
 
 .grid-container {
   display: grid;
