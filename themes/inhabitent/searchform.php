@@ -1,13 +1,22 @@
-<form role="search" method="get" class="search-form" action="<?php echo home_url('/'); ?>">
-	<fieldset>
-		<label>
-			<input type="search" class="search-field" placeholder="SEARCH ..." value="<?php echo esc_attr(get_search_query()); ?>" name="s" title="Search for:" />
-		</label>
-		<button class="search-submit">
-			<span class="icon-search" aria-hidden="true">
-				<i class="fa fa-search"></i>
-			</span>
+<a class="search-toggle" aria-hidden="true">
+	<form role="search" method="get" class="search-form" action="<?php echo home_url('/'); ?>">
+
+		<fieldset><i class="fas fa-search" onclick="myFunction()"></i>
+			<label>
+				<input type="search" class="search-field" placeholder="SEARCH ..." id="magicTrick" value="<?php echo esc_attr(get_search_query()); ?>" name="s" title="Search for:" />
+			</label>
 			<span class="screen-reader-text"><?php echo esc_html('Search'); ?></span>
-		</button>
-	</fieldset>
-</form>
+		</fieldset>
+	</form>
+</a>
+
+<script>
+	function myFunction() {
+		var x = document.getElementById("magicTrick");
+		if (x.style.display === "none") {
+			x.style.display = "block";
+		} else {
+			x.style.display = "none";
+		}
+	}
+</script>

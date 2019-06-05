@@ -47,10 +47,10 @@ function foo_modify_query_order($query)
     if (is_admin() || !$query->is_main_query())
         return;
 
-    if (is_home()) {
-        $query->set(‘posts_per_page’, 5);
-        return;
-    }
+    // if (is_home()) {
+    //     $query->set(‘posts_per_page’, 5);
+    //     return;
+    // }
 
     if (is_post_type_archive('product')) {
         $query->set('posts_per_page', 16);

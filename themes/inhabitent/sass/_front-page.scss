@@ -58,7 +58,7 @@ h2 {
   }
 }
 
-.grid-container {
+.journal-3 {
   height: 500px;
   justify-content: space-between;
   overflow: hidden;
@@ -78,163 +78,53 @@ h2 {
   text-align: center;
 }
 
-.adventures {
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  grid-gap: 20px 20px;
   margin-left: auto;
   margin-right: auto;
   width: 1120px;
-  margin-bottom: 4.5rem;
-  h2 {
-    font-size: 2.4rem;
-    font-weight: 400;
-    margin-bottom: 3.75rem;
-    text-align: center;
-  }
-  ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 2fr;
-    grid-gap: 20px 20px;
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
-    width: 100%;
-    li {
-      grid-column: 1 / span 2;
-      grid-row: 1 / span 2;
-      line-height: 1;
-      overflow: hidden;
-      position: relative;
-      width: 100%;
-      .night-with-f {
-        bottom: 0;
-        left: 0;
-        position: absolute;
-        right: 0;
-        top: 0;
-        img {
-          left: 50%;
-          max-height: 620px;
-          max-width: none;
-          position: absolute;
-          top: 75%;
-          transform: translate(-50%, -75%);
-          width: auto;
-          height: auto;
-        }
-        .story-info {
-          margin: 1.5rem;
-          position: absolute;
-          z-index: 2;
-          h3 {
-            font-family: Merriweather Web, serif;
-            font-weight: 400;
-            margin-top: 24px;
-            text-transform: none;
-            letter-spacing: 2px;
-          }
-          .white-btn {
-            background: #248a83;
-            border: none;
-            border-radius: 0;
-            color: #fff;
-            cursor: pointer;
-            font-family: Novecento Sans Web, sans-serif;
-            font-size: 14.4px;
-            line-height: 1;
-            padding: 0.75rem 1.5rem;
-            text-decoration: none;
-            text-transform: uppercase;
-          }
-        }
-      }
-      .veiw-taking {
-        bottom: 0;
-        left: 0;
-        position: absolute;
-        right: 0;
-        top: 0;
-        z-index: 1;
-        img {
-          left: 50%;
-          max-height: 620px;
-          max-width: none;
-          position: absolute;
-          top: 75%;
-          transform: translate(-50%, -75%);
-          width: auto;
-        }
-        .story-info {
-          margin: 1.5rem;
-          position: absolute;
-          z-index: 2;
-          h3 {
-            font-family: Merriweather Web, serif;
-            font-weight: 400;
-            margin-top: 24px;
-            text-transform: none;
-          }
-        }
-      }
-      .night-sky {
-        bottom: 0;
-        left: 0;
-        position: absolute;
-        right: 0;
-        top: 0;
-        z-index: 1;
-        .story-info {
-          margin: 1.5rem;
-          position: absolute;
-          z-index: 2;
-          h3 {
-            font-family: Merriweather Web, serif;
-            font-weight: 400;
-            margin-top: 24px;
-            text-transform: none;
-            a {
-              border: 1px solid #fff;
-            }
-          }
-        }
-        img {
-          left: 50%;
-          max-height: 620px;
-          max-width: none;
-          position: absolute;
-          top: 75%;
-          transform: translate(-50%, -75%);
-          width: auto;
-        }
-      }
-      .cannoue-ride {
-        bottom: 0;
-        left: 0;
-        position: absolute;
-        right: 0;
-        top: 0;
-        line-height: 1;
-        img {
-          left: 50%;
-          max-height: 620px;
-          max-width: none;
-          position: absolute;
-          top: 75%;
-          transform: translate(-50%, -75%);
-          width: auto;
-        }
-        h3 {
-          font-family: Merriweather Web, serif;
-          font-weight: 400;
-          margin-top: 24px;
-          text-transform: none;
-          margin: 1.5rem;
-          position: absolute;
-          z-index: 2;
-          .white-btn {
-            border: 1px solid #fff;
-          }
-        }
-      }
+  margin-bottom: -50px;
+  .bg-image {
+    &:nth-of-type(1) {
+      background: url(../../project-04-2/images/adventure-photos/canoe-girl.jpg);
+      background-size: cover;
+      grid-column: 1 / 3;
+      grid-row: 1 / -1;
+    }
+    &:nth-of-type(2) {
+      background: url(../../project-04-2/images/adventure-photos/beach-bonfire.jpg);
+      background-size: cover;
+      background-position: center;
+      grid-column: 3 / -1;
+      grid-row: 1 / 2;
+    }
+    &:nth-of-type(3) {
+      background: url(../../project-04-2/images/adventure-photos/mountain-hikers.jpg);
+      background-size: cover;
+    }
+    &:nth-of-type(4) {
+      background: url(../../project-04-2/images/adventure-photos/night-sky.jpg);
+      background-size: cover;
     }
   }
+}
+.tocos-too-are-a-great-adventure {
+  background: #248a83;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  cursor: pointer;
+  font-family: Novecento Sans Web, sans-serif;
+  box-shadow: none;
+  font-size: 14.4px;
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 153px;
+  margin-bottom: 60px;
 }
