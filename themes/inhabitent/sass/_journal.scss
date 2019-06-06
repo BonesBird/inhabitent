@@ -1,19 +1,10 @@
 .blog {
-  border-style: solid;
-  border-color: rgb(196, 196, 196);
-  border-width: 0.5px;
-
   .site-content {
-    border-style: solid;
-    border-color: rgb(196, 196, 196);
-    border-width: 0.5px;
     width: 100%;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas: 'whatever anything';
     .content-area {
-      border-style: solid;
-      border-color: rgb(197, 197, 197);
       border-width: 0.25px;
       grid-area: whatever;
       max-width: 50;

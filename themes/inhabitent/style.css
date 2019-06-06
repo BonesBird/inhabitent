@@ -742,29 +742,20 @@ object {
     -o-object-fit: cover;
        object-fit: cover; }
 
-.blog {
-  border-style: solid;
-  border-color: #c4c4c4;
-  border-width: 0.5px; }
-  .blog .site-content {
+.blog .site-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: 'whatever anything'; }
+  .blog .site-content .content-area {
+    border-width: 0.25px;
+    grid-area: whatever;
+    max-width: 50; }
+  .blog .site-content .widget-area {
     border-style: solid;
-    border-color: #c4c4c4;
-    border-width: 0.5px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-areas: 'whatever anything'; }
-    .blog .site-content .content-area {
-      border-style: solid;
-      border-color: #c5c5c5;
-      border-width: 0.25px;
-      grid-area: whatever;
-      max-width: 50; }
-    .blog .site-content .widget-area {
-      border-style: solid;
-      border-color: silver;
-      border-width: 0.25px;
-      grid-area: anything; }
+    border-color: silver;
+    border-width: 0.25px;
+    grid-area: anything; }
 
 footer {
   background-image: url("../../project-04-2/images/dark-wood.png");
@@ -822,7 +813,6 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -830,13 +820,21 @@ footer {
   padding-bottom: 5px;
   margin-left: auto;
   width: 1240px;
-  border-bottom: 1px solid #e1e1e1; }
+  background-color: rgba(255, 255, 255, 0.85);
+  border-bottom: 1px solid #e1e1e1;
+  position: fixed;
+  -webkit-transition: top 0.5s linear;
+  transition: top 0.5s linear;
+  width: 100%;
+  z-index: 3; }
   .site-header fieldset {
     border: none; }
   .site-header .search-form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
+  .site-header nav {
+    margin-left: 600px; }
   .site-header nav ul {
     list-style: none;
     margin: 0 2px;
@@ -860,6 +858,12 @@ footer {
     padding: 20px;
     background-repeat: no-repeat;
     background-size: 50px; }
+
+#secondary {
+  text-align: center; }
+  #secondary ul {
+    list-style: none;
+    margin-right: 68px; }
 
 .page-find-us .site-content {
   width: 100%;
@@ -1016,6 +1020,13 @@ h2 {
   text-transform: uppercase;
   margin-left: 153px;
   margin-bottom: 60px; }
+
+.content-area {
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-text-decoration-style: none;
+          text-decoration-style: none;
+  text-align: center; }
 
 .page-header {
   border-bottom: 1px dashed #c8c8c8;
