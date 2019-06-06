@@ -1,7 +1,7 @@
 <a class="search-toggle" aria-hidden="true">
 	<form role="search" method="get" class="search-form" action="<?php echo home_url('/'); ?>">
 
-		<fieldset><i class="fas fa-search" onclick="myFunction()"></i>
+		<fieldset><i class="fa fa-search" onclick="myFunction()"></i>
 			<label>
 				<input type="search" class="search-field" placeholder="SEARCH ..." id="icon" value="<?php echo esc_attr(get_search_query()); ?>" name="s" title="Search for:" />
 			</label>

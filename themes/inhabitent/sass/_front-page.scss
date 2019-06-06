@@ -1,14 +1,15 @@
-h2 {
-  font-size: 38.4px;
-  font-size: 2.4rem;
-  font-weight: 400;
-  margin-bottom: 3.75rem;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-family: Novecento Sans Web, sans-serif;
+.home {
+  h2 {
+    font-size: 38.4px;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-bottom: 3.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Novecento Sans Web, sans-serif;
+  }
 }
-
 .home-hero {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)),
     #969696 url('../../project-04-2/images/home-hero.jpg');
@@ -134,4 +135,14 @@ h2 {
   margin-top: 90px;
   margin-bottom: 60px;
   margin-left: 151px;
+}
+.single-product {
+  h2 {
+    text-align: left;
+  }
+}
+.archive {
+  .entry-title {
+    text-align: center;
+  }
 }

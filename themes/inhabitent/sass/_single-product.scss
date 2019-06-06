@@ -1,0 +1,13 @@
+.product-container {
+  width: 1200px;
+  margin: 0 auto;
+  .type-product {
+    justify-content: space-around;
+    .entry-header {
+      width: 45%;
+    }
+    .entry-content {
+      width: 45%;
+    }
+  }
+}

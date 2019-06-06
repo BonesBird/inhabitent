@@ -885,7 +885,7 @@ footer {
     padding-left: 5%;
     grid-area: anything; }
 
-h2 {
+.home h2 {
   font-size: 38.4px;
   font-size: 2.4rem;
   font-weight: 400;
@@ -1024,16 +1024,47 @@ h2 {
   margin-bottom: 60px;
   margin-left: 151px; }
 
-.blog .hfeed .site-content {
-  max-height: 10000px; }
-  .blog .hfeed .site-content .content-area {
-    margin-left: auto;
-    margin-right: auto;
-    -webkit-text-decoration-style: none;
-            text-decoration-style: none;
-    text-align: center;
-    height: 4000px;
-    width: 801px; }
+.single-product h2 {
+  text-align: left; }
+
+.archive .entry-title {
+  text-align: center; }
+
+.blog .entry-header {
+  position: relative;
+  text-align: center;
+  color: white; }
+  .blog .entry-header img {
+    width: 100%; }
+  .blog .entry-header .entry-title {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    background-color: #248a83;
+    text-transform: uppercase;
+    padding: 1.00005rem 1.5rem;
+    font-size: 2.1rem;
+    left: 0;
+    padding: 0.75rem 1.5rem;
+    max-width: 75%; }
+  .blog .entry-header .entry-meta {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    background-color: #248a83;
+    right: 0;
+    bottom: 0;
+    text-transform: uppercase;
+    padding: 1.00005rem 1.5rem;
+    margin-bottom: 7px; }
+
+.blog .hfeed .site-content .content-area {
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-text-decoration-style: none;
+          text-decoration-style: none;
+  text-align: center;
+  width: 801px; }
 
 .page-header {
   border-bottom: 1px dashed #c8c8c8;
@@ -1090,6 +1121,17 @@ h2 {
       padding-right: 0.25rem;
       text-transform: none; }
 
+.product-container {
+  width: 1200px;
+  margin: 0 auto; }
+  .product-container .type-product {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .product-container .type-product .entry-header {
+      width: 45%; }
+    .product-container .type-product .entry-content {
+      width: 45%; }
+
 .date .site-content {
   width: 100%;
   display: grid;
@@ -1123,7 +1165,35 @@ h2 {
     border-width: 0.25px;
     grid-area: anything; }
 
-.single .site-content {
+.single-post .entry-header {
+  position: relative;
+  text-align: center;
+  color: white; }
+  .single-post .entry-header img {
+    width: 100%; }
+  .single-post .entry-header .entry-title {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    background-color: #248a83;
+    text-transform: uppercase;
+    padding: 1.00005rem 1.5rem;
+    font-size: 2.1rem;
+    left: 0;
+    padding: 0.75rem 1.5rem;
+    max-width: 75%; }
+  .single-post .entry-header .entry-meta {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    background-color: #248a83;
+    right: 0;
+    bottom: 0;
+    text-transform: uppercase;
+    padding: 1.00005rem 1.5rem;
+    margin-bottom: 7px; }
+
+.single-post .site-content {
   width: 100%;
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -1131,15 +1201,23 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   width: 1120px; }
-  .single .site-content .content-area {
+  .single-post .site-content .content-area {
     grid-area: whatever;
     max-width: 50; }
-  .single .site-content .widget-area {
+  .single-post .site-content .widget-area {
     border-left-style: solid;
     border-width: 0.25px;
     border-color: silver;
     padding-left: 5%;
     grid-area: anything; }
+
+.single-product article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+h2 .post-158 {
+  text-align: left; }
 
 .site-content {
   margin-top: 134px; }
