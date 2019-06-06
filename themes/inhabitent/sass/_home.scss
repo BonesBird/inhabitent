@@ -1,6 +1,14 @@
-.content-area {
-  margin-left: auto;
-  margin-right: auto;
-  text-decoration-style: none;
-  text-align: center;
+.blog {
+  .hfeed {
+    .site-content {
+      .content-area {
+        margin-left: auto;
+        margin-right: auto;
+        text-decoration-style: none;
+        text-align: center;
+        height: 4000px;
+        width: 801px;
+      }
+    }
+  }
 }
