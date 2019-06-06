@@ -820,7 +820,7 @@ footer {
   padding-bottom: 5px;
   margin-left: auto;
   width: 1240px;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.98);
   border-bottom: 1px solid #e1e1e1;
   position: fixed;
   -webkit-transition: top 0.5s linear;
@@ -857,7 +857,8 @@ footer {
             justify-content: left;
     padding: 20px;
     background-repeat: no-repeat;
-    background-size: 50px; }
+    background-size: 50px;
+    margin-left: 143px; }
 
 #secondary {
   text-align: center; }
@@ -1018,7 +1019,8 @@ h2 {
   padding: 0.75rem 1.5rem;
   text-decoration: none;
   text-transform: uppercase;
-  margin-left: 153px;
+  margin-top: 90px;
+  margin-right: 887px;
   margin-bottom: 60px; }
 
 .content-area {
