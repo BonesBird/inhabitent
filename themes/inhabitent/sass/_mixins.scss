@@ -11,3 +11,9 @@
   margin-right: auto;
   width: $website__width;
 }
+
+@mixin center-page {
+  margin-left: auto;
+  margin-right: auto;
+  width: $website__width;
+}

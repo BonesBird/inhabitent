@@ -6,6 +6,11 @@
 
 /* About Page */
 .page-about {
+  .entry-header {
+    .entry-title {
+      display: none;
+    }
+  }
   .entry-content {
     .p-tager {
       margin-left: auto;
@@ -15,11 +20,6 @@
       margin-bottom: 1.178rem;
     }
 
-    .entry-header {
-      .entry-title {
-        display: none;
-      }
-    }
     .hero-image-header {
       width: 100%;
       height: 100vh;

@@ -16,6 +16,7 @@ get_header(); ?>
 
 		<section browse-shop>
 			<h2>shop stuff</h2>
+
 			<?php
 			$terms = get_terms(
 				array('taxonomy' => 'product-type', 'hide_empty' => 0)
@@ -96,7 +97,10 @@ get_header(); ?>
 				<div class="bg-image"></div>
 			</div>
 			<div class="adv-btn">
+
+
 				<button type="button" class="tocos-too-are-a-great-adventure" onclick="alert('no adventures tocos for you!')">MORE ADVENTURES</button>
+
 			</div>
 		</section>
 

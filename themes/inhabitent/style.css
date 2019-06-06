@@ -715,15 +715,15 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 /* About Page */
+.page-about .entry-header .entry-title {
+  display: none; }
+
 .page-about .entry-content .p-tager {
   margin-left: auto;
   text-align: center;
   max-width: 718px;
   margin-right: auto;
   margin-bottom: 1.178rem; }
-
-.page-about .entry-content .entry-header .entry-title {
-  display: none; }
 
 .page-about .entry-content .hero-image-header {
   width: 100%;
@@ -826,7 +826,8 @@ footer {
   -webkit-transition: top 0.5s linear;
   transition: top 0.5s linear;
   width: 100%;
-  z-index: 3; }
+  z-index: 3;
+  top: 45px; }
   .site-header fieldset {
     border: none; }
   .site-header .search-form {
@@ -1023,14 +1024,16 @@ h2 {
   margin-bottom: 60px;
   margin-left: 151px; }
 
-.blog .hfeed .site-content .content-area {
-  margin-left: auto;
-  margin-right: auto;
-  -webkit-text-decoration-style: none;
-          text-decoration-style: none;
-  text-align: center;
-  height: 4000px;
-  width: 801px; }
+.blog .hfeed .site-content {
+  max-height: 10000px; }
+  .blog .hfeed .site-content .content-area {
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-text-decoration-style: none;
+            text-decoration-style: none;
+    text-align: center;
+    height: 4000px;
+    width: 801px; }
 
 .page-header {
   border-bottom: 1px dashed #c8c8c8;
@@ -1137,3 +1140,6 @@ h2 {
     border-color: silver;
     padding-left: 5%;
     grid-area: anything; }
+
+.site-content {
+  margin-top: 134px; }
