@@ -26,7 +26,7 @@ get_header(); ?>
 				<ul>
 					<?php
 					foreach ($terms as $term) : ?>
-						<li class="product-term" style="list-style-type: none;">
+						<li class="product-term" style="list-style-type: none;border: 1px solid #e1e1e1;">
 							<img src="<?php echo get_template_directory_uri() .
 											'/project-04-2/images/product-type-icons/' .
 											$term->slug . '.svg'

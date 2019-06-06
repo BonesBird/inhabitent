@@ -947,9 +947,8 @@ footer {
           box-sizing: inherit; }
 
 .product-terms .product-term {
-  border: 1px solid #e1e1e1;
-  border-top-width: 5px;
-  padding: 0.75rem; }
+  padding: 0.75rem;
+  border: 1px solid #e1e1e1; }
 
 .product-terms img {
   height: auto;
