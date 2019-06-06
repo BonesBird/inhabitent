@@ -828,6 +828,8 @@ footer {
   width: 100%;
   z-index: 3;
   top: 45px; }
+  .site-header a {
+    color: green; }
   .site-header fieldset {
     border: none; }
   .site-header .search-form {
@@ -1065,6 +1067,10 @@ footer {
           text-decoration-style: none;
   text-align: center;
   width: 801px; }
+  .blog .hfeed .site-content .content-area a {
+    color: white;
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none; }
 
 .page-header {
   border-bottom: 1px dashed #c8c8c8;
@@ -1215,9 +1221,15 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-
-h2 .post-158 {
-  text-align: left; }
+  .single-product article .price {
+    font-family: 'Novecento Sans Web';
+    font-size: 1.8rem; }
+  .single-product article a {
+    font-size: 1.875em;
+    color: #d99054;
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+    font-family: 'Novecento Sans Web'; }
 
 .site-content {
   margin-top: 134px; }

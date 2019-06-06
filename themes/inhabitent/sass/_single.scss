@@ -55,8 +55,15 @@
 .single-product {
   article {
     display: flex;
+    .price {
+      font-family: 'Novecento Sans Web';
+      font-size: 1.8rem;
+    }
+    a {
+      font-size: 1.875em;
+      color: #d99054;
+      text-decoration-line: none;
+      font-family: 'Novecento Sans Web';
+    }
   }
-}
-h2 .post-158 {
-  text-align: left;
 }
