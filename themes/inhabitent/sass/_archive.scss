@@ -1,4 +1,33 @@
 .date {
+  .product-container {
+    .single-product {
+      article {
+        display: flex;
+        .price {
+          font-family: 'Novecento Sans Web';
+          font-size: 1.8rem;
+        }
+        a {
+          font-size: 1.875em;
+          color: #d99054;
+          text-decoration-line: none;
+          font-family: 'Novecento Sans Web';
+        }
+      }
+    }
+    width: 1200px;
+    margin: 0 auto;
+    .type-product {
+      justify-content: space-around;
+      .entry-header {
+        width: 45%;
+      }
+      .entry-content {
+        width: 45%;
+      }
+    }
+  }
+
   .site-content {
     width: 100%;
     display: grid;

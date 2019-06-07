@@ -51,6 +51,9 @@
   .product-term {
     padding: 0.75rem;
     border: 1px solid #e1e1e1;
+    :hover {
+      background-color: orange;
+    }
   }
   img {
     height: auto;
